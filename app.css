@@ -39,48 +39,94 @@ p, h1, h2, h3, h4, h5, h6 {
   My CSS
 */
 body {
+  border: 1px solid blue;
   background-color: #FAFAFA;
+  width: 375px;
+  height: 1360px;
 }
 
 .description {
-  border: 1px solid black;
-  width: 311px;
-  height: 161px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 85px 32px 0px 32px;
+  border: 1px solid black;
+  width: 311px;
+  height: 161px;
 }
 
 .description__heading {
+  width: auto;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 24px;
   letter-spacing: 0.17px;
-  width: auto;
   color: #4D4F62;
 }
 
 .description__heading--light {
-  font-weight: 200;
   height: 36px;
+  font-weight: 200;
 }
 
 .description__heading--bold {
-  font-weight: 600;
   height: 36px;
+  font-weight: 600;
 }
 
 .description__text {
+  text-align: center;
+  margin-top: 13px;
+  height: auto;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.1px;
   line-height: 25px;
   color: #4D4F62;
-  height: auto;
-  text-align: center;
   opacity: 0.5;
-  margin-top: 13px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-width: 3.55px 1px 1px 1px;
+  border-style: solid;
+  border-radius: 8px 8px 8px 8px;
+  width: 311px;
+  height: 222px;
+  padding: 27px 28px 28px 28px;
+}
+
+.card--border-blue {
+  border-color: #44D3D2;
+}
+
+.card__heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  width: 109px;
+  height: 30px;
+  color: #4D4F62;
+}
+
+.card__subheading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.09px;
+  width: 254px;
+  opacity: 0.5;
+  color: #4D4F62;
+}
+
+.card__icon {
+  width: 57px;
+  height: 57px;
+  align-self: flex-end;
+  margin-top: auto;
 }
 
 /*# sourceMappingURL=app.css.map */
