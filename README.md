@@ -76,8 +76,6 @@ Desktop
 
 I achieved a grid-like layout by creatively using Flexbox. Next time, I’d like to explore using CSS Grid directly.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
 - [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background) - This helped me understand Flexbox.
