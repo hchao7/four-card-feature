@@ -163,6 +163,12 @@ body {
     flex-direction: row;
     gap: 30px;
   }
+
+  .card {
+    width: 350px;
+    height: 250px;
+  }
+
   .description {
     margin: 80px 0px 64px 0px;
     width: 540px;
